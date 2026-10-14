@@ -1,0 +1,20 @@
+# NetBeans
+**/build/
+**/dist/
+**/nbproject/private/
+*.class
+*.jar
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment / local configuration
+.env
+.env.*
+config.local.php
