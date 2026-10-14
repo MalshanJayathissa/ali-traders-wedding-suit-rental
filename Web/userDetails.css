@@ -1,0 +1,107 @@
+.wrapper{
+    width: 500px;
+    height: 500px;
+    border: 3px solid lightblue;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    color: white;
+}
+#dis{
+    margin-left: 94px;
+    margin-top: 15px;
+    width: 250px;
+    height: 40px;
+    border-radius:20px;
+    font-style: italic;
+    background: transparent;
+    text-align: center;
+    color: beige;
+    font-size: large;
+}
+#name{
+    margin-left: 100px;
+    width: 250px;
+    height: 40px;
+    border-radius:20px;
+    font-style: italic;
+    background: transparent;
+    text-align: center;
+    color: beige;
+    font-size: large;
+}
+#email{
+    margin-left: 100px;
+    margin-top: 15px;
+    width: 250px;
+    height: 40px;
+    border-radius:20px;
+    font-style: italic;
+    background: transparent;
+    text-align: center;
+    color: beige;
+    font-size: large;
+}
+#address{
+    margin-left: 90px;
+    margin-top: 15px;
+    width: 250px;
+    height: 40px;
+    border-radius:20px;
+    font-style: italic;
+    background: transparent;
+    text-align: center;
+    color: beige;
+    font-size: large;
+}
+#contact{
+    margin-left: 60px;
+    margin-top: 15px;
+    width: 250px;
+    height: 40px;
+    border-radius:20px;
+    font-style: italic;
+    background: transparent;
+    text-align: center;
+    color: beige;
+    font-size: large;
+}
+label{
+    font-size: large;
+    color: lightcyan;
+}
+.container{
+    text-align: center;
+}
+input::placeholder{
+    text-align: center;
+    font-size: large; 
+    color: lightblue;    
+}
+body{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(img/360_F_117332203_ekwDZkViF6M3itApEFRIH4844XjJ7zEb.jpg) no-repeat;
+    background-size: cover;
+}
+.underui{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+#delibtn{
+    width: 350px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-size: large;
+}
+
+#delibtn:hover, #regibtn:focus{
+    background-color: lightseagreen;
+}

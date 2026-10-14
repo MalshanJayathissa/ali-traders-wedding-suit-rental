@@ -1,0 +1,200 @@
+body{
+    background-color: lightslategray;
+    font-family: DomD Reg,Georgia,serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: DomD Reg,Georgia,serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/hero-1024.webp);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    font-family: DomD Reg,Georgia,serif;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+nav ul li a:hover{
+    color: gray;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav ul li select:hover{
+    color: gray;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav ul li select{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    background: transparent;
+    border: 0;
+}
+nav ul li select option:hover{
+    color:white;
+    font-weight: bold;
+}
+nav ul li select option{
+    background: transparent;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: whitesmoke;
+    font-size: 100px;
+    font-family: DomD Reg,Georgia,serif;
+}
+p{
+    color: white;
+    font-size: 11px;
+    font-family: DomD Reg,Georgia,serif;
+}
+button{
+    width: 180px;
+    color: black;
+    font-size: 15px;
+    padding: 12px 0;
+    background: white;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+button:hover{
+    background-color: red;
+    color: white;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url(img/weddind_1.jpg);
+}
+.card2{
+    background-image: url(img/weddind_2.jpg);
+}
+.card3{
+    background-image: url(img/weddind_3.jpg);
+}
+.card4{
+    background-image: url(img/weddind_4.jpg);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color: black;
+    text-shadow: 0 0 5px gray;
+}
+.card p{
+    text-shadow: 0 0 5px black;
+    font-size: 8px;
+}
+
+footer{
+    width: 100vw;
+    height: auto;
+    margin-top: 10px;
+    background-color: #111;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: white;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+h3{
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    font-family: DomD Reg,Georgia,serif;
+}
+p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 16px;
+    font-family: DomD Reg,Georgia,serif;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: white;
+}
+.socials a:hover{
+    color: aqua;
+}
+.footer-bottom{
+    background-color: black;
+    width: 100vm;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}

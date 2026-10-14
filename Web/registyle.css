@@ -1,0 +1,105 @@
+.wrapper{
+    width: 500px;
+    height: 500px;
+    border: 3px solid lightblue;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    color: white;
+}
+#un{
+    margin-left: 60px;
+    width: 250px;
+    height: 40px;
+    border-radius:20px;
+    font-style: italic;
+    background: transparent;
+    text-align: center;
+    color: beige;
+    font-size: large;
+}
+#email{
+    margin-left: 94px;
+    margin-top: 15px;
+    width: 250px;
+    height: 40px;
+    border-radius:20px;
+    font-style: italic;
+    background: transparent;
+    text-align: center;
+    color: beige;
+    font-size: large;
+}
+#psw{
+    margin-left: 72px;
+    margin-top: 15px;
+    width: 250px;
+    height: 40px;
+    border-radius:20px;
+    font-style: italic;
+    background: transparent;
+    text-align: center;
+    color: beige;
+    font-size: large;
+}
+#conpsw{
+    margin-left: 11px;
+    margin-top: 15px;
+    width: 250px;
+    height: 40px;
+    border-radius:20px;
+    font-style: italic;
+    background: transparent;
+    text-align: center;
+    color: beige;
+    font-size: large;
+}
+label{
+    font-size: large;
+    color: lightcyan;
+}
+.container{
+    text-align: center;
+}
+input::placeholder{
+    text-align: center;
+    font-size: large; 
+    color: lightblue;    
+}
+body{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(img/360_F_117332203_ekwDZkViF6M3itApEFRIH4844XjJ7zEb.jpg) no-repeat;
+    background-size: cover;
+}
+.underui{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+#regibtn{
+    width: 350px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-size: large;
+}
+.underregibtn{
+    margin-top: 20px;
+    margin-left: 5px;
+    color: lightcyan;
+    font-weight: bold;
+}
+.underregibtnp{
+    margin-top: 0px;
+    color: white;
+    font-weight: bold;
+}
+#regibtn:hover, #regibtn:focus{
+    background-color: lightseagreen;
+}
